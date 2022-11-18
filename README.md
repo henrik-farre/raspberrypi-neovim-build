@@ -14,4 +14,4 @@ When the build is done you should see a message like:
 CPack: - package: /build/src/neovim-nightly/build/nvim-linux64.deb generated.
 ```
 
-This corresponds to `src/neovim-nightly/build/nvim-linux64.deb` outside the container. Copy this file to you raspberry pi (or other aarch64 device) and install it using `dpkg -i nvim-linux64.deb`
+This corresponds to `src/neovim-nightly/build/nvim-linux64.deb` outside the container. Copy this file to your raspberry pi (or other aarch64 device) and install it using `dpkg -i nvim-linux64.deb`
